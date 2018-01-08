@@ -1,0 +1,59 @@
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# IDE - Other
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+
+# Dependency directories
+node_modules/
+/**/**/node_modules/
+/false
+
+# Typescript v1 declaration files
+typings/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Compiled output
+/**/**/dist/
+/tmp
+.ssl/certs/*
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Coverage directory used by tools like istanbul
+coverage
+
+# Output of 'npm pack'
+*.tgz
+
+# dotenv environment variables file
+.env
