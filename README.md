@@ -1,1 +1,1 @@
-# nest-server
+## Lerna managed, NestJS driven `microservices` demo
