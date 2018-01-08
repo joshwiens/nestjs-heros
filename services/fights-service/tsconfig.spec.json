@@ -1,0 +1,6 @@
+{
+  "extends": "../../tsconfig.spec.json",
+  "compileOnSave": false,
+  "files": ["../../setupJest.ts"],
+  "include": ["src/**/*.spec.ts", "src/**/*.d.ts"]
+}
