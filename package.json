@@ -1,0 +1,9 @@
+{
+  "name": "nestjs-heros",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:d3viant0ne/nestjs-heros.git",
+  "author": "Joshua Wiens <d3viant0ne>",
+  "license": "Apache-2.0",
+  "private": true
+}
