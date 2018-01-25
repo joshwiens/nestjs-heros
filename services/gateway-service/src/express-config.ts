@@ -1,13 +1,10 @@
-import { Component } from '@nestjs/common';
-
 import * as bodyParser from 'body-parser';
 import * as compression from 'compression';
 import * as cors from 'cors';
 import * as express from 'express';
 import * as helmet from 'helmet';
 
-@Component()
-export class AppConfiguration {
+export class ExpressConfiguration {
   public configure(express: express.Application) {
     express
       .options('*', cors())

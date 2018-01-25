@@ -1,13 +1,10 @@
-import { Component } from '@nestjs/common';
-
 import * as express from 'express';
 import * as fs from 'fs';
 import * as path from 'path';
 
-import { Environments } from '../shared/environments';
+import { Environments } from './shared/environments';
 
-@Component()
-export class AppBootstrap {
+export class ExpressBootstrap {
   private isProd: any = false;
   public expressAppDefinition(app: express.Application): express.Application {
     app.set('prefix', process.env.APP_URL_PREFIX);
