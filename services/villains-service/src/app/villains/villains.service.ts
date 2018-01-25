@@ -1,6 +1,6 @@
 import { Component } from '@nestjs/common';
 
 @Component()
-export class VilliansService {
+export class VillainsService {
 
 }

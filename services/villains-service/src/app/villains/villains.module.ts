@@ -3,16 +3,16 @@ import { Module, RequestMethod, MiddlewaresConsumer } from '@nestjs/common';
 import { SharedModule } from '../../shared/shared.module';
 import { AuthMiddleware } from '../../shared/middlewares';
 
-import { VilliansController } from './villians.controller';
-import { VilliansService } from './villians.service';
+import { VillainsController } from './villains.controller';
+import { VillainsService } from './villains.service';
 
 @Module({
-  components: [VilliansService],
-  controllers: [VilliansController],
+  components: [VillainsService],
+  controllers: [VillainsController],
   modules: [SharedModule],
-  exports: [VilliansService],
+  exports: [VillainsService],
 })
-export class VilliansModule {
+export class VillainsModule {
   public configure(consumer: MiddlewaresConsumer) {
     consumer
       .apply(AuthMiddleware)
